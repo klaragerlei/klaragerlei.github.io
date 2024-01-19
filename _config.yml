@@ -7,7 +7,6 @@ logo: site-logo.png
 url: https://mmistakes.github.io/so-simple-theme
 
 # Jekyll configuration
-remote_theme: "mmistakes/so-simple-theme@3.2.0"
 permalink:   /:categories/:title/
 markdown:    kramdown
 highlighter: rouge
@@ -16,27 +15,23 @@ sass:
   style: compressed
 gems:
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
+remote_theme: "mmistakes/so-simple-theme"
 
 kramdown:
-  input: GFM
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..2
   enable_coderay: false
 
-mathjax: true
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
 
-comments: true
 
 # Site owner
 owner:
-  name: Michael Rose
+  name: the tardigrade
   avatar: michael-rose-photo.jpg
   email: michael@mademistakes.com
   disqus-shortname: sosimpletheme
@@ -51,9 +46,9 @@ owner:
   pinterest:
   weibo:
   google:
-    plus: MichaelRoseDesign
-    analytics: UA-2011187-2
-    verify: UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y
-    ad-client: ca-pub-7328585512091257
-    ad-slot: 7855747535
-  bing-verify: D81F4C18A6CB3018F64D7C827D953DFD
+    plus: #MichaelRoseDesign
+    analytics: #UA-2011187-2
+    verify: #UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y
+    ad-client: #ca-pub-7328585512091257
+    ad-slot: #7855747535
+  bing-verify: #D81F4C18A6CB3018F64D7C827D953DFD
