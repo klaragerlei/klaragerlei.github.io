@@ -7,7 +7,7 @@ logo: site-logo.png
 url: https://mmistakes.github.io/so-simple-theme
 
 # Jekyll configuration
-
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
 permalink:   /:categories/:title/
 markdown:    kramdown
 highlighter: rouge
